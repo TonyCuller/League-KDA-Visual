@@ -144,6 +144,7 @@ public class Main extends Application {
         Scene pieChartScene = new Scene(pieChartVbox, 800, 600);
         killsLineChart.getData().addAll(killsSeries, deathsSeries, assistSeries);
 
+        primaryStage.setTitle("League KDA Visuals");
         primaryStage.setScene(lineChartscene);
         primaryStage.show();
 
